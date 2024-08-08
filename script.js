@@ -4,7 +4,16 @@ let barra_Superior = document.getElementsByClassName('barraSuperior')[0]
 //let capturar_Imagem = document.getElementsByClassName('capturar')[0].value	
 let imagem = document.createElement('img')
 //capturar.addEventListener('oninput', a =>{
-
+/*
+let tabelas =document.getElementsByClassName('tabela')
+tabelas[0].setAttribute('class','tabela-0')
+tabelas[1].setAttribute('class','tabela-1')
+tabelas[2].setAttribute('class','tabela-2')
+*/
+let mes =document.getElementsByClassName('mes')
+//mes[0,1,2].setAttribute('class','mes-0')
+//mes[1].setAttribute('class','mes-1')
+//mes[2].setAttribute('class','mes-2')
 
 function anexar_Imagem(){
 	imagem.setAttribute('src','pp.jpg')
@@ -30,6 +39,9 @@ function showThumbnail(files) {
     }
   }
   */
+
+
+/*
 const el = document.querySelector(".draggable");
 let state = {
     eventToCoordinates(event) { return {x: event.clientX, y: event.clientY}; },
@@ -79,3 +91,4 @@ function makeDraggable(state, el) {
     el.addEventListener('pointermove', move)
     el.addEventListener('touchstart', (e) => e.preventDefault());
 }
+*/
